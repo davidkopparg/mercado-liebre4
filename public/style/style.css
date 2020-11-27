@@ -1,0 +1,56 @@
+body{
+margin:0;
+padding:0;
+background-color: #E7E7E7;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER*/
+
+.header-container{
+   display:flex;
+   justify-content:center ;
+   height: 75px;
+   background-color:#FFE600;
+   font-size: 14px;
+}
+
+.header-container-logo{
+    margin-top: 5px;
+    width: 7%;
+}
+
+.header-containerSearch{
+display:flex;
+flex-direction: column;
+justify-content: space-around;
+margin-left:100px;
+margin-right:100px
+}
+
+.header-search{
+font-size: 12px;  
+height: 30px;
+border: none;
+box-shadow: 2px 2px 5px #999;
+color: #999 ;
+}
+
+.header-navIco{
+display:flex;
+align-items: flex-end ;
+margin-bottom :5px;
+}
+
+.header-navIcoIconos{
+margin : 5px;
+}
+ 
+/*MAIN*/
+
+.main-container{
+display: flex;
+justify-content: center;
+}
+ 
