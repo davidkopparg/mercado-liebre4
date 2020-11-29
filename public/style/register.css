@@ -1,0 +1,44 @@
+.form-container{
+ display: flex;
+ align-items: center;
+flex-direction: column;
+background-color: white;
+width: 40%;
+border-radius: 5px;
+margin:15px;
+
+}
+.main-formContainer{
+display: flex;
+align-items: center;
+flex-direction: column;
+
+
+}
+.main-titulo{
+text-align: center;    
+font-size: 24px;
+ font-weight: bold;
+}
+.form-container-name, .form-container-mail{
+    display: flex;
+    justify-content:space-between;
+
+   margin:40px;
+   width: 80%;
+}
+
+.header-user{
+    font-size: 15px;
+    width:45%;
+    color:  #999;
+    border: none;
+    border-bottom: #999 solid 1px;
+}
+
+.form-container-document{
+    display: flex;
+   margin:20px;
+   width: 80%;
+ }
+
