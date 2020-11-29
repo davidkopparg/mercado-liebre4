@@ -8,7 +8,9 @@ body {
    justify-content: center;
 }
 
-
+input {
+   outline:none;
+  }
 /* HEADER*/
 
 .header-container {
