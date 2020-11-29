@@ -8,6 +8,7 @@ body {
  }
 
 
+
  .header-container {
   
         height: 260px;
@@ -18,12 +19,9 @@ body {
     
  }
 
- .header-navIcoIconos{
-  font-size: 28px;
-  
-    
+ .header-icono{
+  margin-top:10px;  
  }
- 
 
 
 
