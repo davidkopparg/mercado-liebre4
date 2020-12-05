@@ -19,6 +19,9 @@ input{
 outline: none ;   
 }
 
+.headerCategorias, .header-iconos{
+   display:none
+}
 .header-Logo{
 width: 40%;
 
@@ -153,3 +156,98 @@ margin:15px;
 .footercontainer-1 i {
    color: blue;
 }
+
+/*desktop */
+
+@media only screen and (min-width: 769px) {
+   
+
+
+   .header-Logo{
+      width: 20%;
+      
+      }
+      
+      .header-search{
+      width:45%;
+      background-color: white;
+      display:flex;
+      align-self: center;
+      border-radius: 4px;
+      border:1px white solid;
+      
+      }
+      
+      .header-container{
+         display:flex;
+        
+
+      padding:20px;
+      background-color: #FFE600;
+      }
+      
+      .search{
+      border-style: none;
+      border-color: white;
+      
+      padding:6px;
+      
+      }
+      
+      .header-bottom{
+         border-style: none;
+      border-color: white;
+      border-radius: 4px;
+      background-color: white;
+      align-self: center;
+      }
+      
+      .header-parrafo{
+         width: 30%;   
+         font-size: 15px;
+         padding:12px;
+      }
+      .header-navCategoria{
+        display:none;
+      }
+      
+.headerCategorias, .header-iconos{
+   display:block;
+   width: 40%;
+   font-size :12px;
+   font-weight: bold;
+   padding:14px;
+   
+}
+
+.headerCategorias nav{
+   margin-top: 20px;
+text-align: left;
+}
+   
+
+.header-iconos nav{
+   text-align: right;
+   margin-top: 20px;
+}
+.headerCategorias a{
+   padding:5px;
+}
+
+.header-iconos a{
+   padding:5px;
+}
+/*header*/
+
+
+.sectionProductos{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.articulo1{
+   width: 40%;
+}
+
+}
+
