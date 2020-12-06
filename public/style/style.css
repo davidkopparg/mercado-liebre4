@@ -81,6 +81,9 @@ color:white;
 padding:5px;
 border-radius:4px;
    }
+ 
+   
+
 
    /*header*/
 
@@ -107,6 +110,9 @@ border-radius: 5px;
 .articulo1 i{
    padding:5px;
    color: green;
+   position: relative;
+   left: 90%;
+   bottom:30px;
 }
 
 .articulo1 .precio{
@@ -161,7 +167,7 @@ margin:15px;
 
 @media only screen and (min-width: 769px) {
    
-
+   
 
    .header-Logo{
       width: 20%;
@@ -237,6 +243,7 @@ text-align: left;
 .header-iconos a{
    padding:5px;
 }
+
 /*header*/
 
 
@@ -248,6 +255,116 @@ text-align: left;
 .articulo1{
    width: 40%;
 }
+.articulo1 i{
+   position: relative;
+   left: 85%;
+   bottom:30px;
+}
+
+
+@media only screen and (min-width: 1100px) {
+   
+
+
+   .header-Logo{
+      width: 10%;
+      
+      }
+      
+      .header-search{
+      width:45%;
+      background-color: white;
+      display:flex;
+      align-self: center;
+      border-radius: 4px;
+      border:1px white solid;
+      }
+      
+      .header-container{
+         display:flex;
+      padding:20px;
+      background-color: #FFE600;
+      }
+      
+      .search{
+      border-style: none;
+      border-color: white;
+      padding:6px;
+      }
+      
+      .header-bottom{
+         border-style: none;
+      border-color: white;
+      border-radius: 4px;
+      background-color: white;
+      align-self: center;
+      }
+      
+      .header-parrafo{
+         width: 30%;   
+         font-size: 18px;
+         padding:12px;
+      }
+      .header-navCategoria{
+        display:none;
+      }
+      
+.headerCategorias, .header-iconos{
+   display:block;
+   width: 40%;
+   font-size :18px;
+   font-weight: bold;
+   padding:14px;
+   text-decoration: none;
+   color:black;
+ }
+
+.headerCategorias nav{
+   margin-top: 20px;
+text-align: left;
+}
+   
+
+.header-iconos nav{
+   text-align: right;
+   margin-top: 20px;
+}
+.headerCategorias a{
+   padding:5px;
+}
+
+.header-iconos a{
+   padding:5px;
+}
+/*header*/
+
+
+.sectionProductos{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.articulo1{
+   width: 20%;
+}
+.footercontainer{
+   display:flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.footercontainer-1{
+width: 30%;
 
 }
 
+.articulo1 i {
+transition: .4s all;
+}
+
+.articulo1 i :hover{
+   transform: rotate(360deg);
+}
+
+
+}
+}
